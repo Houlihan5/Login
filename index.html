@@ -13,30 +13,39 @@
   <h1>GARP Proctor Registration</h1>
   <h3>Please enter Proctor Login details below if you have registered for 2014</h3>
 
-  <form action="#null">
-  <ol>
-  	<li>
+  <!--Deleted the list becase I wanted to delete the numbers in front of e-mail and proctor id-->
+  <form action="#null" method="post">
   	  <label for="mail">E-mail</label>
   	  <input type="email" name="email" id="mail" required="required" />
-  	</li>
-  	<li>
+  	
       <label for="proctorid">Proctor Id</label>
       <input type="text" name="proctorid" id="proctorid" required="required" />
-  	</li>	
-  </ol> 
+      <div><button type="submit">
+        <br><strong>LOGIN</strong>
+      </button></div>
+  	</form>
+
+      
     <p>
       <!--changed button from submit to login-->
-      <button type="submit">
-        <br><strong>LOGIN</strong>
-      </button>
+      
     </p>
+       
+      <!--added button option for new proctors-->
+  
 
-  <h3>New Proctors click here</h3>
-  </form>
+  <form action="null" method="post">
+    <h3>New Proctors</h3>
+  <div><button type="submit">
+    <br><strong>NEW PROCTORS CLICK HERE</strong>
+  </button></div>
+</form>
   
    <!--corrected spelling error of Association-->
   <footer>
-    <p>GARP 2006-2014 Global Association of Risk Professionals. All Rights Reserved.</p>
+    
+      <h4>GARP 2006-2014 Global Association of Risk Professionals. All Rights Reserved.</h4>
+    
   </footer>
 
 </body>
