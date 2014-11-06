@@ -16,15 +16,24 @@ h1 {
 	color: blue;
 	background: white;
 	text-align: center;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif;
 
 }
  
    /* wanted all other text on page to be black */
-h3 {
-	font-size: 1.777em;
+h4 {
+	font-size: 1.33275em;
 	color: black;
 	text-align: center;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif;
+}
 
+h5 {
+
+	font-size: .8885em;
+	color: black;
+	text-align: center;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif;
 }
 
     /* centering form and making it visible with a border per directions from "My first HTML form" */
@@ -88,17 +97,10 @@ input:focus, textarea:focus {
 
 }
 
-#container {
-
-	width: 960px;
-	margin: 0 auto;
-	backgroun: #ccc;
+@media only screen and (min-width: 40em) {
+{
+	/* CSS Styles */
 }
 
-@media only screen and (min-device-width: 40em) {
-#container {
-	width: 100%;
-	backgroun: #aaa;
-}
-}
+
 
